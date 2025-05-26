@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\tarjetadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\tarjetadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\tablaposiciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\tablaposiciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\tablaposicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\tablaposicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\estadisticasjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\estadisticasjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\gol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\gol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\jornada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\models\\tipogol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\models\\tipogol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\estadisticasjugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\estadisticasjugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,113 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TipoGol.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\TipoGol.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\TipoGol.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\TipoGol.cs",
-              "RelativeToolTip": "premierTrack\\Models\\TipoGol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:05:26.316Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.config",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\app.config",
-              "RelativeDocumentMoniker": "premierTrack\\app.config",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\app.config",
-              "RelativeToolTip": "premierTrack\\app.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-26T05:33:40.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tarjeta.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Tarjeta.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\Tarjeta.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Tarjeta.cs",
-              "RelativeToolTip": "premierTrack\\Models\\Tarjeta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:09:22.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TablaPosicion.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\TablaPosicion.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\TablaPosicion.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\TablaPosicion.cs",
-              "RelativeToolTip": "premierTrack\\Models\\TablaPosicion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:08:56.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EstadisticasJugador.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\EstadisticasJugador.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\EstadisticasJugador.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\EstadisticasJugador.cs",
-              "RelativeToolTip": "premierTrack\\Models\\EstadisticasJugador.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:08:32.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Gol.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Gol.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\Gol.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Gol.cs",
-              "RelativeToolTip": "premierTrack\\Models\\Gol.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:08:03.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Partido.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Partido.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\Partido.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Partido.cs",
-              "RelativeToolTip": "premierTrack\\Models\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:07:41.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Jornada.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Jornada.cs",
-              "RelativeDocumentMoniker": "premierTrack\\Models\\Jornada.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Models\\Jornada.cs",
-              "RelativeToolTip": "premierTrack\\Models\\Jornada.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:07:13.384Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -160,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TarjetaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TarjetaDAO.cs",
+              "RelativeDocumentMoniker": "premierTrack\\DAOs\\TarjetaDAO.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TarjetaDAO.cs",
+              "RelativeToolTip": "premierTrack\\DAOs\\TarjetaDAO.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAiwG0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:59:21.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TablaPosicionDAO.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TablaPosicionDAO.cs",
+              "RelativeDocumentMoniker": "premierTrack\\DAOs\\TablaPosicionDAO.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TablaPosicionDAO.cs",
+              "RelativeToolTip": "premierTrack\\DAOs\\TablaPosicionDAO.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwJoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:58:38.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstadisticasJugadorDAO.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
+              "RelativeDocumentMoniker": "premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
+              "RelativeToolTip": "premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:57:51.715Z",
+              "EditorCaption": ""
             }
           ]
         }

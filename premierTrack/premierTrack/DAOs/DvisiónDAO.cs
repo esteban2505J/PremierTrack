@@ -1,0 +1,131 @@
+﻿using Oracle.ManagedDataAccess.Client;
+using premierTrack.Models;
+using premierTrack.Utils;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace premierTrack.DAOs
+{
+    public class DivisionDAO
+    {
+        private readonly DatabaseHelper dbHelper;
+
+        public DivisionDAO()
+        {
+            dbHelper = new DatabaseHelper();
+        }
+
+        public DataTable GetAllDivisions()
+        {
+            try
+            {
+                return dbHelper.ExecuteQuery("SELECT * FROM Division ORDER BY id_division");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener las divisiones: " + ex.Message);
+            }
+        }
+
+        public Division GetDivisionById(int idDivision)
+        {
+            try
+            {
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "SELECT * FROM Division WHERE id_division = :id";
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = idDivision;
+                        using (OracleDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                return new Division
+                                {
+                                    IdDivision = reader.GetInt32(0),
+                                    Nombre = reader.GetString(1)
+                                };
+                            }
+                            return null;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener la división: " + ex.Message);
+            }
+        }
+
+        public void AddDivision(Division division)
+        {
+            try
+            {
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "INSERT INTO Division (id_division, nombre) VALUES (:id, :nombre)";
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = division.IdDivision;
+                        command.Parameters.Add("nombre", OracleDbType.Varchar2).Value = division.Nombre;
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar la división: " + ex.Message);
+            }
+        }
+
+        public void UpdateDivision(Division division)
+        {
+            try
+            {
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "UPDATE Division SET nombre = :nombre WHERE id_division = :id";
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("nombre", OracleDbType.Varchar2).Value = division.Nombre;
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = division.IdDivision;
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al actualizar la división: " + ex.Message);
+            }
+        }
+
+        public void DeleteDivision(int idDivision)
+        {
+            try
+            {
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "DELETE FROM Division WHERE id_division = :id";
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = idDivision;
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al eliminar la división: " + ex.Message);
+            }
+        }
+    }
+}
