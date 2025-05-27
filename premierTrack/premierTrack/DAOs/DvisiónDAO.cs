@@ -23,7 +23,8 @@ namespace premierTrack.DAOs
         {
             try
             {
-                return dbHelper.ExecuteQuery("SELECT * FROM Division ORDER BY id_division");
+                // La corrección aquí: "Division" con comillas dobles para Oracle
+                return dbHelper.ExecuteQuery("SELECT * FROM \"Division\" ORDER BY id_division");
             }
             catch (Exception ex)
             {
@@ -70,18 +71,24 @@ namespace premierTrack.DAOs
                 using (OracleConnection connection = dbHelper.GetConnection())
                 {
                     connection.Open();
-                    string query = "INSERT INTO Division (id_division, nombre) VALUES (:id, :nombre)";
+
+                
+                    string query = @"INSERT INTO ""Division"" (""nombre"")
+                                  VALUES (:nombre_division)";
+
                     using (OracleCommand command = new OracleCommand(query, connection))
                     {
-                        command.Parameters.Add("id", OracleDbType.Int32).Value = division.IdDivision;
-                        command.Parameters.Add("nombre", OracleDbType.Varchar2).Value = division.Nombre;
+                        // Parámetros para el nombre de la división (asumiendo que tu objeto Division tiene una propiedad Nombre)
+                        command.Parameters.Add("nombre_division", OracleDbType.Varchar2).Value = division.Nombre;
+
+
                         command.ExecuteNonQuery();
                     }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al agregar la división: " + ex.Message);
+                throw new Exception("Error al agregar la división: " + ex.Message, ex);
             }
         }
 

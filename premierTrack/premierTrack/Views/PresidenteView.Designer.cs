@@ -46,7 +46,7 @@
             label2 = new Label();
             label1 = new Label();
             textBox1 = new TextBox();
-            tabPage1 = new TabPage();
+            Actualizar = new TabPage();
             label13 = new Label();
             updateButton = new Button();
             nacionalidad_textbox = new TextBox();
@@ -61,19 +61,26 @@
             label9 = new Label();
             label8 = new Label();
             label7 = new Label();
+            Eliminar = new TabPage();
+            delete_button = new Button();
+            cedula_delete = new TextBox();
+            label15 = new Label();
+            label14 = new Label();
             tabControl1.SuspendLayout();
             Presidentes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewPresidentes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)presidenteDAOBindingSource).BeginInit();
             Crear.SuspendLayout();
-            tabPage1.SuspendLayout();
+            Actualizar.SuspendLayout();
+            Eliminar.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
             // 
             tabControl1.Controls.Add(Presidentes);
             tabControl1.Controls.Add(Crear);
-            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(Actualizar);
+            tabControl1.Controls.Add(Eliminar);
             tabControl1.Location = new Point(-4, 1);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -246,29 +253,29 @@
             textBox1.Size = new Size(211, 30);
             textBox1.TabIndex = 0;
             // 
-            // tabPage1
+            // Actualizar
             // 
-            tabPage1.AccessibleRole = AccessibleRole.None;
-            tabPage1.BackColor = Color.DarkSlateGray;
-            tabPage1.Controls.Add(label13);
-            tabPage1.Controls.Add(updateButton);
-            tabPage1.Controls.Add(nacionalidad_textbox);
-            tabPage1.Controls.Add(txtCedulaBusqueda);
-            tabPage1.Controls.Add(name_update_textbox);
-            tabPage1.Controls.Add(label12);
-            tabPage1.Controls.Add(label11);
-            tabPage1.Controls.Add(label10);
-            tabPage1.Controls.Add(fechaNa_update);
-            tabPage1.Controls.Add(fechaFi_update);
-            tabPage1.Controls.Add(fechaIn_update);
-            tabPage1.Controls.Add(label9);
-            tabPage1.Controls.Add(label8);
-            tabPage1.Controls.Add(label7);
-            tabPage1.Location = new Point(4, 29);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Size = new Size(871, 485);
-            tabPage1.TabIndex = 2;
-            tabPage1.Text = "Actualizar";
+            Actualizar.AccessibleRole = AccessibleRole.None;
+            Actualizar.BackColor = Color.DarkSlateGray;
+            Actualizar.Controls.Add(label13);
+            Actualizar.Controls.Add(updateButton);
+            Actualizar.Controls.Add(nacionalidad_textbox);
+            Actualizar.Controls.Add(txtCedulaBusqueda);
+            Actualizar.Controls.Add(name_update_textbox);
+            Actualizar.Controls.Add(label12);
+            Actualizar.Controls.Add(label11);
+            Actualizar.Controls.Add(label10);
+            Actualizar.Controls.Add(fechaNa_update);
+            Actualizar.Controls.Add(fechaFi_update);
+            Actualizar.Controls.Add(fechaIn_update);
+            Actualizar.Controls.Add(label9);
+            Actualizar.Controls.Add(label8);
+            Actualizar.Controls.Add(label7);
+            Actualizar.Location = new Point(4, 29);
+            Actualizar.Name = "Actualizar";
+            Actualizar.Size = new Size(871, 485);
+            Actualizar.TabIndex = 2;
+            Actualizar.Text = "Actualizar";
             // 
             // label13
             // 
@@ -403,6 +410,59 @@
             label7.Text = "Nombre:";
             label7.Click += label7_Click;
             // 
+            // Eliminar
+            // 
+            Eliminar.BackColor = Color.DarkSlateGray;
+            Eliminar.Controls.Add(delete_button);
+            Eliminar.Controls.Add(cedula_delete);
+            Eliminar.Controls.Add(label15);
+            Eliminar.Controls.Add(label14);
+            Eliminar.Location = new Point(4, 29);
+            Eliminar.Name = "Eliminar";
+            Eliminar.Size = new Size(871, 485);
+            Eliminar.TabIndex = 3;
+            Eliminar.Text = "Eliminar";
+            Eliminar.Click += Eliminar_Click;
+            // 
+            // delete_button
+            // 
+            delete_button.Location = new Point(397, 340);
+            delete_button.Name = "delete_button";
+            delete_button.Size = new Size(94, 29);
+            delete_button.TabIndex = 3;
+            delete_button.Text = "Eliminar";
+            delete_button.UseVisualStyleBackColor = true;
+            delete_button.Click += button3_Click_1;
+            // 
+            // cedula_delete
+            // 
+            cedula_delete.Location = new Point(313, 148);
+            cedula_delete.Name = "cedula_delete";
+            cedula_delete.Size = new Size(329, 27);
+            cedula_delete.TabIndex = 2;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.ForeColor = SystemColors.ButtonFace;
+            label15.Location = new Point(42, 152);
+            label15.Name = "label15";
+            label15.Size = new Size(191, 23);
+            label15.TabIndex = 1;
+            label15.Text = "Cudula del presidente:";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.ForeColor = SystemColors.ButtonFace;
+            label14.Location = new Point(280, 34);
+            label14.Name = "label14";
+            label14.Size = new Size(311, 28);
+            label14.TabIndex = 0;
+            label14.Text = "Eliminar un Registro Presidente";
+            // 
             // PresidenteView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -419,8 +479,10 @@
             ((System.ComponentModel.ISupportInitialize)presidenteDAOBindingSource).EndInit();
             Crear.ResumeLayout(false);
             Crear.PerformLayout();
-            tabPage1.ResumeLayout(false);
-            tabPage1.PerformLayout();
+            Actualizar.ResumeLayout(false);
+            Actualizar.PerformLayout();
+            Eliminar.ResumeLayout(false);
+            Eliminar.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -442,7 +504,7 @@
         private BindingSource presidenteDAOBindingSource;
         private Label label6;
         private Button button2;
-        private TabPage tabPage1;
+        private TabPage Actualizar;
         private Label label11;
         private Label label10;
         private DateTimePicker fechaNa_update;
@@ -457,5 +519,10 @@
         private TextBox nacionalidad_textbox;
         private TextBox txtCedulaBusqueda;
         private TextBox name_update_textbox;
+        private TabPage Eliminar;
+        private Label label15;
+        private Label label14;
+        private Button delete_button;
+        private TextBox cedula_delete;
     }
 }

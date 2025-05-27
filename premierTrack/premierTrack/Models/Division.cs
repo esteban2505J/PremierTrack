@@ -8,7 +8,7 @@ namespace premierTrack.Models
 {
     public class Division
     {
-        public int IdDivision { get; set; }
+        public int? IdDivision { get; set; }
         public required string Nombre { get; set; }
     }
 }

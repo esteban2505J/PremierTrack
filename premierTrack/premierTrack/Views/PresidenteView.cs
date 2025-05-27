@@ -226,20 +226,7 @@ namespace premierTrack.Views
                     presidenteExistente.FechaFin = fechaFi_update.Checked ? (DateTime?)fechaFi_update.Value : (DateTime?)null;
                     presidenteExistente.FechaNacimiento = fechaNa_update.Checked ? (DateTime?)fechaNa_update.Value : (DateTime?)null;
 
-                    // La cédula no se actualiza directamente en el objeto porque la usamos como clave de búsqueda,
-                    // a menos que quieras permitir la actualización de la cédula y uses el ID como clave principal para UPDATE.
-                    // Si la cédula también puede cambiar, deberías agregar un campo para la nueva cédula
-                    // o usar el ID interno del presidente como el identificador para la operación de actualización.
-                    // Por ahora, asumiremos que txtCedulaBusqueda es la cédula ANTERIOR para buscar y que name_update_textbox, etc., son los NUEVOS valores.
-                    // Si la cédula TAMBIÉN se actualiza, necesitarías otro TextBox para la "nueva cédula".
-                    // Para simplificar, si la cédula es clave única y se actualiza, es mejor usar ID.
-                    // Por el momento, el campo txtCedulaBusqueda se usa para CARGAR, no para el valor a actualizar en la DB.
-                    // Si la cédula se puede actualizar, necesitas otro campo para el valor de la cédula a actualizar.
-                    // Usaremos la cédula de `presidenteExistente` para enviar a la DB, que es la misma que la de búsqueda.
-                    // Si quieres actualizar la cédula, tendrías que obtenerla de un nuevo campo o permitir que el usuario la edite en `txtCedulaBusqueda`
-                    // y luego pasarla como parte del objeto presidente para la actualización.
-                    // Por claridad, vamos a asumir que `txtCedulaBusqueda` es tanto el campo de búsqueda como el campo editable para la cédula,
-                    // y la cédula se asigna de nuevo al objeto `presidenteExistente`.
+                    
 
                     presidenteExistente.Cedula = txtCedulaBusqueda.Text.Length > 0 ? txtCedulaBusqueda.Text : null; // Asumiendo que txtCedulaBusqueda es también el campo editable de la cédula.
 
@@ -247,8 +234,7 @@ namespace premierTrack.Views
                     presidenteDAO.UpdatePresidente(presidenteExistente);
                     MessageBox.Show("Presidente actualizado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LimpiarCamposActualizar();
-                    // Opcional: Recargar el DataGridView en la pestaña "Presidentes"
-                    // CargarPresidentes();
+                    
                 }
                 catch (Exception ex)
                 {
@@ -275,6 +261,60 @@ namespace premierTrack.Views
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            // Asegúrate de que la columna de "Cedula" exista y contenga un valor válido
+            // **IMPORTANTE:** Reemplaza "Cedula" si tu columna se llama diferente en el DataGridView.
+            // Podría ser "cedula", "CedulaPresidente", etc. Verifica la propiedad DataPropertyName
+            // de la columna en el diseñador o cómo la llenas.
+            if (cedula_delete.Text.Trim() != string.Empty)
+            {
+                string cedulaAEliminar = cedula_delete.Text.Trim();
+
+                // Pide confirmación al usuario antes de eliminar
+                DialogResult result = MessageBox.Show(
+                    $"¿Está seguro de que desea eliminar al presidente con cédula: {cedulaAEliminar}?",
+                    "Confirmar Eliminación",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    try
+                    {
+                        presidenteDAO.DeletePresidente(cedulaAEliminar);
+                        MessageBox.Show("Presidente eliminado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al eliminar el presidente: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("La fila seleccionada no contiene una cédula válida para eliminar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
+
+            MessageBox.Show("Por favor, seleccione un presidente de la lista para eliminar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
+
+        private void Eliminar_Click(object sender, EventArgs e)
+        {
+
+           
+
+
+
+
 
         }
     }

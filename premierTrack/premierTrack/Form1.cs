@@ -161,16 +161,6 @@ namespace premierTrack
 
         }
 
-        private void presidenteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
             PresidenteView presidenteView = new PresidenteView();
@@ -184,6 +174,12 @@ namespace premierTrack
         private void checkDB(object sender, EventArgs e)
         {
             ProbarConexionDetallada(); // Llamar a la función de prueba
+        }
+
+        private void divisionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EquipoView divisionView = new EquipoView();
+            divisionView.Show(); // No modal
         }
     }
 }

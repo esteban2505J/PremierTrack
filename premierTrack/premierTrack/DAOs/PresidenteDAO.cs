@@ -174,5 +174,35 @@ namespace premierTrack.DAOs
             }
             return presidente;
         }
+
+        public void DeletePresidente(string cedula)
+        {
+            try
+            {
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+
+                    // Asegúrate de que el nombre de la columna "cedula" sea exacto en tu tabla
+                    string query = @"DELETE FROM ""presidente"" WHERE ""cedula"" = :cedula";
+
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("cedula", OracleDbType.Varchar2).Value = cedula;
+
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        if (rowsAffected == 0)
+                        {
+                            throw new Exception("No se encontró un presidente con la cédula especificada para eliminar.");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al eliminar el presidente por cédula: " + ex.Message, ex);
+            }
+        }
     }
 }

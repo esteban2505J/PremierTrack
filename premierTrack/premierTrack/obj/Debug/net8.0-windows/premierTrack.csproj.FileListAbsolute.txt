@@ -29,3 +29,12 @@ C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTr
 C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\ref\premierTrack.dll
 C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\bin\Debug\net8.0-windows\.env
 C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.PresidenteView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.EquipoView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.EstadisticaJugadorView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.Gol.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.JornadaView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.JugadoresView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.PartidoView.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.TabalaPos.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.Tarjeta.resources
+C:\Users\newUs\Documents\uni\projects\bases1\premierTrack\premierTrack\premierTrack\obj\Debug\net8.0-windows\premierTrack.Views.Temporada.resources

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             entidadesToolStripMenuItem = new ToolStripMenuItem();
             juagadorToolStripMenuItem = new ToolStripMenuItem();
@@ -41,6 +42,7 @@
             tipoDeTarjetaToolStripMenuItem = new ToolStripMenuItem();
             tipoDeGolToolStripMenuItem = new ToolStripMenuItem();
             presidenteToolStripMenuItem = new ToolStripMenuItem();
+            divisionToolStripMenuItem = new ToolStripMenuItem();
             transaccionesToolStripMenuItem = new ToolStripMenuItem();
             registrarPartidoToolStripMenuItem = new ToolStripMenuItem();
             reportesToolStripMenuItem = new ToolStripMenuItem();
@@ -50,7 +52,9 @@
             acercaDeToolStripMenuItem = new ToolStripMenuItem();
             label2 = new Label();
             button1 = new Button();
+            pictureBox1 = new PictureBox();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -59,13 +63,13 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { entidadesToolStripMenuItem, transaccionesToolStripMenuItem, reportesToolStripMenuItem, utilidadesToolStripMenuItem, ayudasToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.Size = new Size(1081, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // entidadesToolStripMenuItem
             // 
-            entidadesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { juagadorToolStripMenuItem, equipoToolStripMenuItem, partidoToolStripMenuItem, jornadaToolStripMenuItem, temporadaToolStripMenuItem, tablaPosiciónToolStripMenuItem, estadísticasJugadorToolStripMenuItem, tarjetaToolStripMenuItem, tipoDeTarjetaToolStripMenuItem, tipoDeGolToolStripMenuItem, presidenteToolStripMenuItem });
+            entidadesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { juagadorToolStripMenuItem, equipoToolStripMenuItem, partidoToolStripMenuItem, jornadaToolStripMenuItem, temporadaToolStripMenuItem, tablaPosiciónToolStripMenuItem, estadísticasJugadorToolStripMenuItem, tarjetaToolStripMenuItem, tipoDeTarjetaToolStripMenuItem, tipoDeGolToolStripMenuItem, presidenteToolStripMenuItem, divisionToolStripMenuItem });
             entidadesToolStripMenuItem.Name = "entidadesToolStripMenuItem";
             entidadesToolStripMenuItem.Size = new Size(88, 24);
             entidadesToolStripMenuItem.Text = "Entidades";
@@ -139,6 +143,13 @@
             presidenteToolStripMenuItem.Text = "Presidente";
             presidenteToolStripMenuItem.Click += label2_Click;
             // 
+            // divisionToolStripMenuItem
+            // 
+            divisionToolStripMenuItem.Name = "divisionToolStripMenuItem";
+            divisionToolStripMenuItem.Size = new Size(225, 26);
+            divisionToolStripMenuItem.Text = "Division";
+            divisionToolStripMenuItem.Click += divisionToolStripMenuItem_Click;
+            // 
             // transaccionesToolStripMenuItem
             // 
             transaccionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { registrarPartidoToolStripMenuItem });
@@ -191,7 +202,7 @@
             label2.BackColor = SystemColors.ButtonFace;
             label2.Font = new Font("Verdana", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.HotTrack;
-            label2.Location = new Point(256, 54);
+            label2.Location = new Point(389, 40);
             label2.Name = "label2";
             label2.Size = new Size(289, 41);
             label2.TabIndex = 2;
@@ -200,28 +211,41 @@
             // 
             // button1
             // 
-            button1.Location = new Point(327, 210);
+            button1.Location = new Point(975, 503);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 3;
-            button1.Text = "button1";
+            button1.Text = "checkDB";
             button1.UseVisualStyleBackColor = true;
             button1.Click += checkDB;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(150, 98);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(818, 360);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1081, 544);
+            Controls.Add(pictureBox1);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(menuStrip1);
+            ForeColor = Color.DarkCyan;
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -250,5 +274,7 @@
         private ToolStripMenuItem acercaDeToolStripMenuItem;
         private Label label2;
         private Button button1;
+        private ToolStripMenuItem divisionToolStripMenuItem;
+        private PictureBox pictureBox1;
     }
 }

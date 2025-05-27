@@ -4,6 +4,33 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\EquipoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\EstadisticaJugadorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Gol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Tarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\TabalaPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\JornadaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\PartidoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Temporada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\JugadoresView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\PresidenteView.cs">
       <SubType>Form</SubType>
     </Compile>
