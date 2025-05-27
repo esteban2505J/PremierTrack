@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\tarjetadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\tarjetadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\views\\presidenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\views\\presidenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\tablaposiciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\tablaposiciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\views\\presidenteview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\views\\presidenteview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\estadisticasjugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\estadisticasjugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\presidentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\presidentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\views\\presidenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\views\\presidenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|c:\\users\\newus\\documents\\uni\\projects\\bases1\\premiertrack\\premiertrack\\premiertrack\\daos\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8644D7A0-57A6-4FE4-8A94-9C433AFA8F2F}|premierTrack\\premierTrack.csproj|solutionrelative:premiertrack\\daos\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +54,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TarjetaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TarjetaDAO.cs",
-              "RelativeDocumentMoniker": "premierTrack\\DAOs\\TarjetaDAO.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TarjetaDAO.cs",
-              "RelativeToolTip": "premierTrack\\DAOs\\TarjetaDAO.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAiwG0AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PresidenteView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.cs",
+              "RelativeDocumentMoniker": "premierTrack\\Views\\PresidenteView.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "premierTrack\\Views\\PresidenteView.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:59:21.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T15:40:13.77Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TablaPosicionDAO.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TablaPosicionDAO.cs",
-              "RelativeDocumentMoniker": "premierTrack\\DAOs\\TablaPosicionDAO.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\TablaPosicionDAO.cs",
-              "RelativeToolTip": "premierTrack\\DAOs\\TablaPosicionDAO.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAQwJoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Form1.cs",
+              "RelativeDocumentMoniker": "premierTrack\\Form1.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Form1.cs",
+              "RelativeToolTip": "premierTrack\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:58:38.318Z",
+              "WhenOpened": "2025-05-27T13:58:55.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EstadisticasJugadorDAO.cs",
-              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
-              "RelativeDocumentMoniker": "premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
-              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
-              "RelativeToolTip": "premierTrack\\DAOs\\EstadisticasJugadorDAO.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Title": "PresidenteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\PresidenteDAO.cs",
+              "RelativeDocumentMoniker": "premierTrack\\DAOs\\PresidenteDAO.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\PresidenteDAO.cs",
+              "RelativeToolTip": "premierTrack\\DAOs\\PresidenteDAO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwLIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:57:51.715Z",
+              "WhenOpened": "2025-05-27T03:30:05.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PresidenteView.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.cs",
+              "RelativeDocumentMoniker": "premierTrack\\Views\\PresidenteView.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.cs",
+              "RelativeToolTip": "premierTrack\\Views\\PresidenteView.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:21:11.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PresidenteView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.Designer.cs",
+              "RelativeDocumentMoniker": "premierTrack\\Views\\PresidenteView.Designer.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Views\\PresidenteView.Designer.cs",
+              "RelativeToolTip": "premierTrack\\Views\\PresidenteView.Designer.cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAQwMwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:40:43.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Form1.cs",
+              "RelativeDocumentMoniker": "premierTrack\\Form1.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "premierTrack\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:21:47.992Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EquipoDAO.cs",
+              "RelativeDocumentMoniker": "premierTrack\\DAOs\\EquipoDAO.cs",
+              "ToolTip": "C:\\Users\\newUs\\Documents\\uni\\projects\\bases1\\premierTrack\\premierTrack\\premierTrack\\DAOs\\EquipoDAO.cs",
+              "RelativeToolTip": "premierTrack\\DAOs\\EquipoDAO.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAvwFAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:47:25.032Z",
               "EditorCaption": ""
             }
           ]

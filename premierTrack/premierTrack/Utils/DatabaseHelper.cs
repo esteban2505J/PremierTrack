@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using dotenv.net;
 
 
 namespace premierTrack.Utils
@@ -18,10 +19,25 @@ namespace premierTrack.Utils
         {
             try
             {
-                connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["OracleConnection"].ConnectionString;
+                DotEnv.Load();
+
+                string host = Environment.GetEnvironmentVariable("DB_HOST") ?? "localhost";
+                string port = Environment.GetEnvironmentVariable("DB_PORT") ?? "1521";
+                string serviceName = Environment.GetEnvironmentVariable("DB_SERVICE_NAME") ?? "XE";
+                string userId = Environment.GetEnvironmentVariable("DB_USER") ?? "premiertrack";
+                string password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "password123";
+
+
+                Console.WriteLine($"DB_HOST: {host}");
+                Console.WriteLine($"DB_PORT: {port}");
+                Console.WriteLine($"DB_SERVICE_NAME: {serviceName}");
+                Console.WriteLine($"DB_USER: {userId}");
+                Console.WriteLine($"DB_PASSWORD: {password}");
+
+                connectionString = $"Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST={host})(PORT={port})))(CONNECT_DATA=(SERVICE_NAME={serviceName})));User Id=system;Password=1404;";
                 if (string.IsNullOrEmpty(connectionString))
                 {
-                    throw new Exception("La cadena de conexión 'OracleConnection' no está configurada en app.config.");
+                    throw new Exception("La cadena de conexión no se pudo construir debido a variables de entorno faltantes.");
                 }
             }
             catch (Exception ex)
@@ -78,6 +94,26 @@ namespace premierTrack.Utils
                 catch (Exception ex)
                 {
                     throw new Exception($"Error al ejecutar el comando: {ex.Message}");
+                }
+
+
+            }
+        }
+
+        public bool TestConnection(out string errorMessage)
+        {
+            using (OracleConnection connection = GetConnection())
+            {
+                try
+                {
+                    connection.Open();
+                    errorMessage = null;
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    errorMessage = ex.Message;
+                    return false;
                 }
             }
         }

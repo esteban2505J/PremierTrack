@@ -127,5 +127,27 @@ namespace premierTrack.DAOs
                 throw new Exception("Error al eliminar la división: " + ex.Message);
             }
         }
+
+        public bool DivisionExists(int idDivision)
+        {
+            try
+            {
+                string query = "SELECT COUNT(*) FROM division WHERE id_division = :id";
+                using (OracleConnection connection = dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    using (OracleCommand command = new OracleCommand(query, connection))
+                    {
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = idDivision;
+                        int count = Convert.ToInt32(command.ExecuteScalar());
+                        return count > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al verificar la división: " + ex.Message);
+            }
+        }
     }
 }

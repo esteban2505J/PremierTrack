@@ -8,10 +8,12 @@ namespace premierTrack.Models
 {
     public class Presidente
     {
-        public int IdPresidente { get; set; }
+        public int? IdPresidente { get; set; }
         public string Nombre { get; set; }
-        public DateTime? FechaInicio { get; set; } // Nullable porque puede ser null
-        public DateTime? FechaFin { get; set; }    // Nullable porque puede ser null
-        public int IdEquipo { get; set; }
+        public DateTime? FechaInicio { get; set; }
+        public DateTime? FechaFin { get; set; }
+        public string Cedula { get; set; }
+        public string Nacionalidad { get; set; }
+        public DateTime? FechaNacimiento { get; set; } // Nuevo atributo
     }
 }

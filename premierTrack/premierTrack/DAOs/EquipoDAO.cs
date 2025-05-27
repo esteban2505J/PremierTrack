@@ -71,14 +71,24 @@ namespace premierTrack.DAOs
         {
             try
             {
+                // Validar que la división exista
+                DivisionDAO divisionDAO = new DivisionDAO();
+                if (!divisionDAO.DivisionExists(equipo.IdDivision))
+                {
+                    throw new Exception($"La división con ID {equipo.IdDivision} no existe.");
+                }
+
+                
+
                 using (OracleConnection connection = dbHelper.GetConnection())
                 {
                     connection.Open();
-                    string query = "INSERT INTO Equipo (ID_Equipo, nombre, id_division, ciudad, estadio, presidente) VALUES (:id, :nombre, :div, :ciudad, :estadio, :pres)";
+                    string query = "INSERT INTO Equipo (ID_Equipo, nombre, id_division, ciudad, estadio, presidente) " +
+                                   "VALUES (:id, :nombre, :div, :ciudad, :estadio, :pres)";
                     using (OracleCommand command = new OracleCommand(query, connection))
                     {
                         command.Parameters.Add("id", OracleDbType.Int32).Value = equipo.IdEquipo;
-                        command.Parameters.Add("nombre", OracleDbType.Varchar2).Value = equipo.Nombre;
+                        command.Parameters.Add("nombre", OracleDbType.Varchar2).Value = equipo.Nombre ?? (object)DBNull.Value;
                         command.Parameters.Add("div", OracleDbType.Int32).Value = equipo.IdDivision;
                         command.Parameters.Add("ciudad", OracleDbType.Varchar2).Value = (object)equipo.Ciudad ?? DBNull.Value;
                         command.Parameters.Add("estadio", OracleDbType.Varchar2).Value = (object)equipo.Estadio ?? DBNull.Value;

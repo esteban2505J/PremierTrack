@@ -30,10 +30,6 @@
         {
             menuStrip1 = new MenuStrip();
             entidadesToolStripMenuItem = new ToolStripMenuItem();
-            transaccionesToolStripMenuItem = new ToolStripMenuItem();
-            reportesToolStripMenuItem = new ToolStripMenuItem();
-            utilidadesToolStripMenuItem = new ToolStripMenuItem();
-            ayudasToolStripMenuItem = new ToolStripMenuItem();
             juagadorToolStripMenuItem = new ToolStripMenuItem();
             equipoToolStripMenuItem = new ToolStripMenuItem();
             partidoToolStripMenuItem = new ToolStripMenuItem();
@@ -45,9 +41,15 @@
             tipoDeTarjetaToolStripMenuItem = new ToolStripMenuItem();
             tipoDeGolToolStripMenuItem = new ToolStripMenuItem();
             presidenteToolStripMenuItem = new ToolStripMenuItem();
+            transaccionesToolStripMenuItem = new ToolStripMenuItem();
             registrarPartidoToolStripMenuItem = new ToolStripMenuItem();
+            reportesToolStripMenuItem = new ToolStripMenuItem();
             tablaDeClasToolStripMenuItem = new ToolStripMenuItem();
+            utilidadesToolStripMenuItem = new ToolStripMenuItem();
+            ayudasToolStripMenuItem = new ToolStripMenuItem();
             acercaDeToolStripMenuItem = new ToolStripMenuItem();
+            label2 = new Label();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -68,67 +70,40 @@
             entidadesToolStripMenuItem.Size = new Size(88, 24);
             entidadesToolStripMenuItem.Text = "Entidades";
             // 
-            // transaccionesToolStripMenuItem
-            // 
-            transaccionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { registrarPartidoToolStripMenuItem });
-            transaccionesToolStripMenuItem.Name = "transaccionesToolStripMenuItem";
-            transaccionesToolStripMenuItem.Size = new Size(114, 24);
-            transaccionesToolStripMenuItem.Text = "Transacciones";
-            // 
-            // reportesToolStripMenuItem
-            // 
-            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tablaDeClasToolStripMenuItem });
-            reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            reportesToolStripMenuItem.Size = new Size(82, 24);
-            reportesToolStripMenuItem.Text = "Reportes";
-            // 
-            // utilidadesToolStripMenuItem
-            // 
-            utilidadesToolStripMenuItem.Name = "utilidadesToolStripMenuItem";
-            utilidadesToolStripMenuItem.Size = new Size(90, 24);
-            utilidadesToolStripMenuItem.Text = "Utilidades";
-            // 
-            // ayudasToolStripMenuItem
-            // 
-            ayudasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { acercaDeToolStripMenuItem });
-            ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
-            ayudasToolStripMenuItem.Size = new Size(71, 24);
-            ayudasToolStripMenuItem.Text = "Ayudas";
-            // 
             // juagadorToolStripMenuItem
             // 
             juagadorToolStripMenuItem.Name = "juagadorToolStripMenuItem";
-            juagadorToolStripMenuItem.Size = new Size(224, 26);
+            juagadorToolStripMenuItem.Size = new Size(225, 26);
             juagadorToolStripMenuItem.Text = "Juagador";
             // 
             // equipoToolStripMenuItem
             // 
             equipoToolStripMenuItem.Name = "equipoToolStripMenuItem";
-            equipoToolStripMenuItem.Size = new Size(224, 26);
+            equipoToolStripMenuItem.Size = new Size(225, 26);
             equipoToolStripMenuItem.Text = "Equipo";
             // 
             // partidoToolStripMenuItem
             // 
             partidoToolStripMenuItem.Name = "partidoToolStripMenuItem";
-            partidoToolStripMenuItem.Size = new Size(224, 26);
+            partidoToolStripMenuItem.Size = new Size(225, 26);
             partidoToolStripMenuItem.Text = "Partido";
             // 
             // jornadaToolStripMenuItem
             // 
             jornadaToolStripMenuItem.Name = "jornadaToolStripMenuItem";
-            jornadaToolStripMenuItem.Size = new Size(224, 26);
+            jornadaToolStripMenuItem.Size = new Size(225, 26);
             jornadaToolStripMenuItem.Text = "Jornada";
             // 
             // temporadaToolStripMenuItem
             // 
             temporadaToolStripMenuItem.Name = "temporadaToolStripMenuItem";
-            temporadaToolStripMenuItem.Size = new Size(224, 26);
+            temporadaToolStripMenuItem.Size = new Size(225, 26);
             temporadaToolStripMenuItem.Text = "Temporada";
             // 
             // tablaPosiciónToolStripMenuItem
             // 
             tablaPosiciónToolStripMenuItem.Name = "tablaPosiciónToolStripMenuItem";
-            tablaPosiciónToolStripMenuItem.Size = new Size(224, 26);
+            tablaPosiciónToolStripMenuItem.Size = new Size(225, 26);
             tablaPosiciónToolStripMenuItem.Text = "TablaPosición";
             tablaPosiciónToolStripMenuItem.Click += tablaPosiciónToolStripMenuItem_Click;
             // 
@@ -158,15 +133,31 @@
             // 
             // presidenteToolStripMenuItem
             // 
+            presidenteToolStripMenuItem.AccessibleName = "presidenteDropdown";
             presidenteToolStripMenuItem.Name = "presidenteToolStripMenuItem";
             presidenteToolStripMenuItem.Size = new Size(225, 26);
             presidenteToolStripMenuItem.Text = "Presidente";
+            presidenteToolStripMenuItem.Click += label2_Click;
+            // 
+            // transaccionesToolStripMenuItem
+            // 
+            transaccionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { registrarPartidoToolStripMenuItem });
+            transaccionesToolStripMenuItem.Name = "transaccionesToolStripMenuItem";
+            transaccionesToolStripMenuItem.Size = new Size(114, 24);
+            transaccionesToolStripMenuItem.Text = "Transacciones";
             // 
             // registrarPartidoToolStripMenuItem
             // 
             registrarPartidoToolStripMenuItem.Name = "registrarPartidoToolStripMenuItem";
-            registrarPartidoToolStripMenuItem.Size = new Size(224, 26);
+            registrarPartidoToolStripMenuItem.Size = new Size(202, 26);
             registrarPartidoToolStripMenuItem.Text = "Registrar Partido";
+            // 
+            // reportesToolStripMenuItem
+            // 
+            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tablaDeClasToolStripMenuItem });
+            reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            reportesToolStripMenuItem.Size = new Size(82, 24);
+            reportesToolStripMenuItem.Text = "Reportes";
             // 
             // tablaDeClasToolStripMenuItem
             // 
@@ -175,17 +166,55 @@
             tablaDeClasToolStripMenuItem.Text = "Tabla de clasificación";
             tablaDeClasToolStripMenuItem.Click += tablaDeClasToolStripMenuItem_Click;
             // 
+            // utilidadesToolStripMenuItem
+            // 
+            utilidadesToolStripMenuItem.Name = "utilidadesToolStripMenuItem";
+            utilidadesToolStripMenuItem.Size = new Size(90, 24);
+            utilidadesToolStripMenuItem.Text = "Utilidades";
+            // 
+            // ayudasToolStripMenuItem
+            // 
+            ayudasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { acercaDeToolStripMenuItem });
+            ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
+            ayudasToolStripMenuItem.Size = new Size(71, 24);
+            ayudasToolStripMenuItem.Text = "Ayudas";
+            // 
             // acercaDeToolStripMenuItem
             // 
             acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            acercaDeToolStripMenuItem.Size = new Size(224, 26);
+            acercaDeToolStripMenuItem.Size = new Size(162, 26);
             acercaDeToolStripMenuItem.Text = "Acerca de ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = SystemColors.ButtonFace;
+            label2.Font = new Font("Verdana", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.HotTrack;
+            label2.Location = new Point(256, 54);
+            label2.Name = "label2";
+            label2.Size = new Size(289, 41);
+            label2.TabIndex = 2;
+            label2.Text = "Premier Track";
+            label2.Click += label2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(327, 210);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 3;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += checkDB;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(label2);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
@@ -219,5 +248,7 @@
         private ToolStripMenuItem registrarPartidoToolStripMenuItem;
         private ToolStripMenuItem tablaDeClasToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
+        private Label label2;
+        private Button button1;
     }
 }
